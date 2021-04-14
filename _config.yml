@@ -1,1 +1,4 @@
 theme: jekyll-theme-slate
+plugins:
+  - jekyll-optional-front-matter
+google_analytics: G-KT9F7P72RE
