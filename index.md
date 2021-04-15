@@ -15,3 +15,7 @@ exit;
 ```bash
 perl ./perl_firts_time.pl
 ```
+
+### Записи
+
+[Где ведётся разработка самого языка Перл](/core/repo)
