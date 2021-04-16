@@ -1,6 +1,6 @@
 ## ДоПерл (DoPerl)
 
-perl_firtst_time.pl:
+perl_first_time.pl:
 
 ```perl
 use strict;
@@ -13,7 +13,7 @@ exit;
 и
 
 ```bash
-perl ./perl_firts_time.pl
+perl ./perl_first_time.pl
 ```
 
 ### Записи
