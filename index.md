@@ -23,3 +23,4 @@ perl ./perl_first_time.pl
 * [Установливаем перл из исходников в ящик (Docker)](/core/docker)
 * [Особые переменные](/perl/specialvar)
 * [Сравнение языка оболочки (bash) с Перл](/comparison/bash)
+* [Запуск оболочки (Bash)](/bash/run_bash)
