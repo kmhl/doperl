@@ -22,3 +22,4 @@ perl ./perl_first_time.pl
 * [Что нужно знать и уметь разработчику языка Перл](/core/requirements)
 * [Установливаем перл из исходников в ящик (Docker)](/core/docker)
 * [Особые переменные](/perl/specialvar)
+* [Сравнение языка оболочки (bash) с Перл](/comparison/bash)
