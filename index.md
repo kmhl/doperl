@@ -25,3 +25,4 @@ perl ./perl_first_time.pl
 * [Сравнение языка оболочки (bash) с Перл](/comparison/bash)
 * [Запуск оболочки (Bash)](/bash/run_bash)
 * [Запуск оболочки (Bash). Отладка](/bash/run_bash_practice)
+* [О замыслах ("проектах")](/work/project)
