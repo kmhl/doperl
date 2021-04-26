@@ -92,12 +92,17 @@
 * $FORMAT_TOP_NAME, $^
 * $FORMAT_NAME, $~
 
+### Предупреждения
+
+* **$WARNING, $^W** -- устанавливается при запуске с ключом `-w`, влияет на
+  выполнение также, как и "прагма" `use warnings`.
+* **${^WARNING_BITS}** -- "битовая" переменная для хранения всех выбранных
+  предупреждения для отслеживания.
+
 ### Ошибки
 
 * ${^CHILD_ERROR_NATIVE}
 * $EXCEPTIONS_BEING_CAUGHT, $^S
-* $WARNING, $^W
-* ${^WARNING_BITS}
 * $CHILD_ERROR, $?
 
 ##### Ошибки при выполнении eval
