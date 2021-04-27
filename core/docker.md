@@ -14,11 +14,25 @@ cd perl5/
 
 Создаём Dockerfile со следующим содержимым:
 
-```
+```bash
 FROM debian
-RUN apt-get update
-RUN apt-get -y upgrade
+RUN apt-get update && apt-get -y upgrade
 RUN apt-get -y install make gcc
+RUN apt-get -y install vim
+RUN apt-get -y install dialog apt-utils
+RUN apt-get -y install locales
+RUN apt-get -y install cpanminus
+
+# Поддержка русского языка
+RUN sed -i -e \
+  's/# ru_RU.UTF-8 UTF-8/ru_RU.UTF-8 UTF-8/' /etc/locale.gen \
+   && locale-gen
+
+ENV LANG ru_RU.UTF-8
+ENV LANGUAGE ru_RU:ru
+ENV LC_LANG ru_RU.UTF-8
+ENV LC_ALL ru_RU.UTF-8
+
 ENTRYPOINT ["/bin/bash"]
 ```
 
