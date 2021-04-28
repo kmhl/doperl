@@ -26,3 +26,4 @@ perl ./perl_first_time.pl
 * [Запуск оболочки (Bash)](/bash/run_bash)
 * [Запуск оболочки (Bash). Отладка](/bash/run_bash_practice)
 * [О замыслах ("проектах")](/work/project)
+* [Место для работы](/work/where)
