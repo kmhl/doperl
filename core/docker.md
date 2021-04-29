@@ -33,6 +33,7 @@ ENV LANGUAGE ru_RU:ru
 ENV LC_LANG ru_RU.UTF-8
 ENV LC_ALL ru_RU.UTF-8
 
+WORKDIR /perl_source
 ENTRYPOINT ["/bin/bash"]
 ```
 
@@ -55,12 +56,6 @@ perl_dev            latest              82f7da758c59        55 seconds ago 268MB
 docker run -it -v "$(pwd)":/perl_source \
                -v localperl:/usr/localperl \
                perl_dev
-```
-
-Заходим с "папку" с исходниками:
-
-```
-cd /perl_source
 ```
 
 Запускаем предустановочный настройщик:
