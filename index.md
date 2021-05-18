@@ -27,3 +27,7 @@ perl ./perl_first_time.pl
 * [Запуск оболочки (Bash). Отладка](/bash/run_bash_practice)
 * [О замыслах ("проектах")](/work/project)
 * [Место для работы](/work/where)
+* [Выпуски Перла](/perl/releases)
+* [О сообществе разработчиков начинания с открытым исходным "кодом"](/opensource/community)
+* [Работа с "электронной почтой"](/work/email)
+* [О свидетельствах относительно имеющихся навыков](/work/certificate)
