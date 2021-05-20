@@ -2,9 +2,8 @@
 
 ### 5.34.0
 
-В 5.34.0, который выйдет в ближайшее
-[время](https://metacpan.org/pod/release/XSAWYERX/perl-5.34.0-RC2/pod/perldelta.pod)
-были добавлены новые улучшения ядра:
+В 5.34.0 были добавлены новые [улучшения
+ядра](https://metacpan.org/pod/release/XSAWYERX/perl-5.34.0/pod/perldelta.pod):
 
 - появились try/catch области;
 - в qr/{,n}/ нижнюю границу можно не указывать;

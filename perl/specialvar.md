@@ -2,19 +2,19 @@
 
 ### Общие переменные
 
-* $LIST_SEPARATOR, $"
+* $LIST\_SEPARATOR, $"
 * $a, $b
 * %ENV
-* $SYSTEM_FD_MAX, $^F
+* $SYSTEM\_FD\_MAX, $^F
 * @F
-* $INPLACE_EDIT, $^I
+* $INPLACE\_EDIT, $^I
 * $^M
 * $BASETIME, $^T
 
 ##### "Функции" и ключевые вызовы
 
-* $ARG, $_
-* @ARG, @_
+* $ARG, $\_
+* @ARG, @\_
 
 ##### Модули
 
@@ -28,23 +28,23 @@
 
 ##### О запущенном приложении
 
-* $PROCESS_ID, $PID, $$
-* $PROGRAM_NAME, $0
+* $PROCESS\_ID, $PID, $$
+* $PROGRAM\_NAME, $0
 
 ##### Сведения
 
-* $EXECUTABLE_NAME, $^X
+* $EXECUTABLE\_NAME, $^X
 * $OSNAME, $^O
-* $PERL_VERSION, $^V
-* $OLD_PERL_VERSION, $]
+* $PERL\_VERSION, $^V
+* $OLD\_PERL\_VERSION, $]
 
 ##### Пользователи и "группы"
 
-* $REAL_GROUP_ID, $GID, $(
-* $EFFECTIVE_GROUP_ID, $EGID, $)
-* $REAL_USER_ID, $UID, $<
-* $EFFECTIVE_USER_ID, $EUID, $>
-* $SUBSCRIPT_SEPARATOR, $SUBSEP, $;
+* $REAL\_GROUP\_ID, $GID, $(
+* $EFFECTIVE\_GROUP\_ID, $EGID, $)
+* $REAL\_USER\_ID, $UID, $<
+* $EFFECTIVE\_USER\_ID, $EUID, $>
+* $SUBSCRIPT\_SEPARATOR, $SUBSEP, $;
 
 
 ### Отыскивающие выражения
@@ -81,16 +81,22 @@
 * $OUTPUT_AUTOFLUSH, $\|
 * ${^LAST_FH}
 
-### "Форматы"
+### Разметки ("Форматы")
 
-* $ACCUMULATOR, $^A
-* $FORMAT_FORMFEED, $^L
-* $FORMAT_PAGE_NUMBER, $%
-* $FORMAT_LINES_LEFT, $-
-* $FORMAT_LINE_BREAK_CHARACTERS, $:
-* $FORMAT_LINES_PER_PAGE, $=
-* $FORMAT_TOP_NAME, $^
-* $FORMAT_NAME, $~
+* **$ACCUMULATOR, $^A** -- переменная для внутреннего использования внутри format вызова,
+  содержащего formline вызовы, которые работают с ней напрямую.
+* **$FORMAT_FORMFEED, $^L** -- с чего начинается вывод одной страницы разметки,
+  по умолчанию '\f'.
+* **$FORMAT_PAGE_NUMBER, $%** -- порядковое число для текущей страницы разметки.
+* **$FORMAT_LINES_LEFT, $-** -- количество неиспользуемых доступных строк на
+  странице.
+* **$FORMAT_LINE_BREAK_CHARACTERS, $:** -- знаки разделители, используемые для
+  случая с правилами отображения ^.
+* **$FORMAT_LINES_PER_PAGE, $=** -- количество строк для отображения на странице
+  разметки.
+* **$FORMAT_TOP_NAME, $^** -- имя разметки в качестве шапки для вывода.
+* **$FORMAT_NAME, $~** -- имя разметки для вывода с помощью **write**. По
+  умолчанию STDOUT.
 
 ### Предупреждения
 
@@ -101,14 +107,18 @@
 
 ### Ошибки
 
-* ${^CHILD_ERROR_NATIVE}
-* $EXCEPTIONS_BEING_CAUGHT, $^S
-* $CHILD_ERROR, $?
+##### Ошибки при выполнении сторонних приложений
 
-##### Ошибки при выполнении eval
+* **$CHILD_ERROR, $?** -- число ошибки при выполнении внешнего приложения.
+* **${^CHILD_ERROR_NATIVE}** -- число ошибки при выполнении внешнего приложения,
+  схожее с $?, но которое выдаётся как есть в зависимости от ОС.
+
+##### Ошибки при выполнении eval (уровень Перл)
 
 * **$EVAL_ERROR, $@** -- содержит либо строку с описанием ошибки, либо ссылку на
   переменную, с которой был вызван die.
+* **$EXCEPTIONS_BEING_CAUGHT, $^S** -- указывает на вид участка "кода", где
+  произошло исключение.
 
 ##### "Системные" вызовы
 
@@ -140,6 +150,6 @@
 ### Неиспользуемые
 
 * $#
-* $*
+* $\*
 * $[
 * ${^WIN32_SLOPPY_STAT}
