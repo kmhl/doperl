@@ -1,4 +1,11 @@
-theme: jekyll-theme-slate
+title: DoPerl
+author_url: https://doperl.org
+description: >- # this means to ignore newlines until "baseurl:"
+baseurl: "/"
+url: "doperl.org"
+
+theme: minima
 plugins:
-  - jekyll-optional-front-matter
+  - jekyll-feed
+
 google_analytics: G-KT9F7P72RE
