@@ -24,36 +24,36 @@ perl ./perl_first_time.pl
 
 ### Перл
 
-* [Что нужно знать и уметь разработчику языка Перл](/ru/core/requirements)
-* [Где ведётся разработка самого языка Перл](/ru/core/repo)
-* [Установливаем перл из исходников в ящик (Docker)](/ru/core/docker)
-* [Особые переменные](/ru/perl/specialvar)
-* [Выпуски Перла](/ru/perl/releases)
-* [Сравнение языка оболочки (bash) с Перл](/ru/comparison/bash)
+* [Что нужно знать и уметь разработчику языка Перл](/doperl/ru/core/requirements)
+* [Где ведётся разработка самого языка Перл](/doperl/ru/core/repo)
+* [Установливаем перл из исходников в ящик (Docker)](/doperl/ru/core/docker)
+* [Особые переменные](/doperl/ru/perl/specialvar)
+* [Выпуски Перла](/doperl/ru/perl/releases)
+* [Сравнение языка оболочки (bash) с Перл](/doperl/ru/comparison/bash)
 
 ### Ящики
 
-* [Установливаем перл из исходников в ящик (Docker)](/ru/core/docker)
+* [Установливаем перл из исходников в ящик (Docker)](/doperl/ru/core/docker)
 
 ### Оболочка (баш)
 
-* [Запуск оболочки (Bash)](/ru/bash/run_bash)
-* [Запуск оболочки (Bash). Отладка](/ru/bash/run_bash_practice)
-* [Сравнение языка оболочки (bash) с Перл](/ru/comparison/bash)
+* [Запуск оболочки (Bash)](/doperl/ru/bash/run_bash)
+* [Запуск оболочки (Bash). Отладка](/doperl/ru/bash/run_bash_practice)
+* [Сравнение языка оболочки (bash) с Перл](/doperl/ru/comparison/bash)
 
 ### "Проект"
 
-* [О замыслах ("проектах")](/ru/work/project)
+* [О замыслах ("проектах")](/doperl/ru/work/project)
 
 ### Работа
 
-* [Место для работы](/ru/work/where)
-* [Работа с "электронной почтой"](/ru/work/email)
+* [Место для работы](/doperl/ru/work/where)
+* [Работа с "электронной почтой"](/doperl/ru/work/email)
 
 ### Образование
 
-* [О свидетельствах относительно имеющихся навыков](/ru/work/certificate)
+* [О свидетельствах относительно имеющихся навыков](/doperl/ru/work/certificate)
 
 ### Открытый исходный "код"
 
-* [О сообществе разработчиков начинания с открытым исходным "кодом"](/ru/opensource/community)
+* [О сообществе разработчиков начинания с открытым исходным "кодом"](/doperl/ru/opensource/community)
