@@ -22,6 +22,8 @@ exit;
 perl ./perl_first_time.pl
 ```
 
+## Разработка на языке предписаний Перл
+
 ### Перл
 
 * [Что нужно знать и уметь разработчику языка Перл](/doperl/ru/core/requirements)
@@ -31,9 +33,13 @@ perl ./perl_first_time.pl
 * [Выпуски Перла](/doperl/ru/perl/releases)
 * [Сравнение языка оболочки (bash) с Перл](/doperl/ru/comparison/bash)
 
+## Разработка языка предписаний Перл
+
 ### Ящики
 
 * [Установливаем перл из исходников в ящик (Docker)](/doperl/ru/core/docker)
+
+## Другое
 
 ### Оболочка (баш)
 
