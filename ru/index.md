@@ -26,34 +26,34 @@ perl ./perl_first_time.pl
 
 ### Перл
 
-* [Что нужно знать и уметь разработчику языка Перл](/doperl/ru/core/requirements)
-* [Где ведётся разработка самого языка Перл](/doperl/ru/core/repo)
-* [Установливаем перл из исходников в ящик (Docker)](/doperl/ru/core/docker)
-* [Особые переменные](/doperl/ru/perl/specialvar)
-* [Выпуски Перла](/doperl/ru/perl/releases)
-* [Сравнение языка оболочки (bash) с Перл](/doperl/ru/comparison/bash)
+* [Что нужно знать и уметь разработчику языка Перл]({{ site.baseurl }}/ru/core/requirements)
+* [Где ведётся разработка самого языка Перл]({{ site.baseurl }}/ru/core/repo)
+* [Установливаем перл из исходников в ящик (Docker)]({{ site.baseurl }}/ru/core/docker)
+* [Особые переменные]({{ site.baseurl }}/ru/perl/specialvar)
+* [Выпуски Перла]({{ site.baseurl }}/ru/perl/releases)
+* [Сравнение языка оболочки (bash) с Перл]({{ site.baseurl }}/ru/comparison/bash)
 
 ## Разработка языка предписаний Перл
 
 ### Ящики
 
-* [Установливаем перл из исходников в ящик (Docker)](/doperl/ru/core/docker)
+* [Установливаем перл из исходников в ящик (Docker)]({{ site.baseurl }}/ru/core/docker)
 
 ## Другое
 
 ### "Проект"
 
-* [О замыслах ("проектах")](/doperl/ru/work/project)
+* [О замыслах ("проектах")]({{ site.baseurl }}/ru/work/project)
 
 ### Работа
 
-* [Место для работы](/doperl/ru/work/where)
-* [Работа с "электронной почтой"](/doperl/ru/work/email)
+* [Место для работы]({{ site.baseurl }}/ru/work/where)
+* [Работа с "электронной почтой"]({{ site.baseurl }}/ru/work/email)
 
 ### Образование
 
-* [О свидетельствах относительно имеющихся навыков](/doperl/ru/work/certificate)
+* [О свидетельствах относительно имеющихся навыков]({{ site.baseurl }}/ru/work/certificate)
 
 ### Открытый исходный "код"
 
-* [О сообществе разработчиков начинания с открытым исходным "кодом"](/doperl/ru/opensource/community)
+* [О сообществе разработчиков начинания с открытым исходным "кодом"]({{ site.baseurl }}/ru/opensource/community)
