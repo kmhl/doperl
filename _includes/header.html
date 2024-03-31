@@ -28,8 +28,8 @@
 -->
         <div>
           {% assign l = site.data.languages %}
-          <a class="page-link" href="/en"><span>{{ l.en.icon }} </span>{{ l.en.label }}</a>
-          <a class="page-link" href="/ru"><span>{{ l.ru.icon }} </span>{{ l.ru.label }}</a>
+          <a class="page-link" href="{{ site.baseurl }}/en"><span>{{ l.en.icon }} </span>{{ l.en.label }}</a>
+          <a class="page-link" href="{{ site.baseurl }}/ru"><span>{{ l.ru.icon }} </span>{{ l.ru.label }}</a>
         </div>
       </nav>
     {%- endif -%}
