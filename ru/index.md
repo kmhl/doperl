@@ -41,12 +41,6 @@ perl ./perl_first_time.pl
 
 ## Другое
 
-### Оболочка (баш)
-
-* [Запуск оболочки (Bash)](/doperl/ru/bash/run_bash)
-* [Запуск оболочки (Bash). Отладка](/doperl/ru/bash/run_bash_practice)
-* [Сравнение языка оболочки (bash) с Перл](/doperl/ru/comparison/bash)
-
 ### "Проект"
 
 * [О замыслах ("проектах")](/doperl/ru/work/project)

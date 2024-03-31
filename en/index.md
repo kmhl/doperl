@@ -35,12 +35,6 @@ perl ./perl_first_time.pl
 
 * [Installing Perl from sources into Docker-container](/doperl/en/core/docker)
 
-### Bash
-
-* [Run Bash](/doperl/en/bash/run_bash)
-* [Run Bash. Debugging](/doperl/en/bash/run_bash_practice)
-* [Comparison Bash to Perl](/doperl/en/comparison/bash)
-
 ### Project
 
 * [About projects](/doperl/en/work/project)
