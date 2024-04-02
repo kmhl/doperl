@@ -28,7 +28,6 @@ perl ./perl_first_time.pl
 
 * [Особые переменные]({{ site.baseurl }}/ru/perl/specialvar)
 * [Выпуски Перла]({{ site.baseurl }}/ru/perl/releases)
-* [Сравнение языка оболочки (bash) с Перл]({{ site.baseurl }}/ru/comparison/bash)
 
 ## Разработка языка предписаний Перл
 
