@@ -16,7 +16,7 @@ lang-ref: core/requirements
 ### Рабочие приспособления
 
 * make и Makefile
-* git
+* [git](/ogite).
 * GitHub
 
 ### Дополнительные навыки
