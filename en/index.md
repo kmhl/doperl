@@ -34,20 +34,3 @@ perl ./perl_first_time.pl
 ### Containers
 
 * [Installing Perl from sources into Docker-container]({{ site.baseurl }}/en/core/docker)
-
-### Project
-
-* [About projects]({{ site.baseurl }}/en/work/project)
-
-### Work
-
-* [Workplace]({{ site.baseurl }}/en/work/where)
-* [Email operations]({{ site.baseurl }}/en/work/email)
-
-### Education
-
-* [About professional certificates]({{ site.baseurl }}/en/work/certificate)
-
-### Open source
-
-* [About open-source developers community]({{ site.baseurl }}/en/opensource/community)

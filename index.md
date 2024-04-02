@@ -38,22 +38,3 @@ perl ./perl_first_time.pl
 ### Ящики
 
 * [Установливаем перл из исходников в ящик (Docker)]({{ site.baseurl }}/ru/core/docker)
-
-## Другое
-
-### "Проект"
-
-* [О замыслах ("проектах")]({{ site.baseurl }}/ru/work/project)
-
-### Работа
-
-* [Место для работы]({{ site.baseurl }}/ru/work/where)
-* [Работа с "электронной почтой"]({{ site.baseurl }}/ru/work/email)
-
-### Образование
-
-* [О свидетельствах относительно имеющихся навыков]({{ site.baseurl }}/ru/work/certificate)
-
-### Открытый исходный "код"
-
-* [О сообществе разработчиков начинания с открытым исходным "кодом"]({{ site.baseurl }}/ru/opensource/community)
