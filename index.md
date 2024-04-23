@@ -27,6 +27,7 @@ perl ./perl_first_time.pl
 * [Особые переменные]({{ site.baseurl }}/ru/perl/specialvar)
 * [Выпуски Перла]({{ site.baseurl }}/ru/perl/releases)
 * [Обработка дней]({{ site.baseurl }}/ru/дни)
+* [Собеседование на перл-разработчика]({{ site.baseurl }}/собеседование_на_перл_разработчика)
 
 ## Разработка языка предписаний Перл
 
