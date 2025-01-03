@@ -39,3 +39,4 @@ perl ./perl_first_time.pl
 ## Решения на Перле
 
 * [Заговор (Mojo)]({{ site.baseurl }}/ru/mojo/index)
+* [Прочитать запись]({{ site.baseurl }}/запись/прочитать)
